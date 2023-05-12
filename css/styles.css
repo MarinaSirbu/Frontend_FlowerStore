@@ -1,0 +1,109 @@
+.header-main {
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+.intro {
+	
+	background-size: cover;
+	background-image: url(../images/tulip.jpg);
+width: 100%;
+min-height: 600px;
+margin-bottom: 30px;
+
+}
+
+
+.price {
+	text-align: center;
+}
+
+/* proprietati pentru pagina contacte */
+/* copiate */
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/* adaugate */
+.md-form i {
+	background: #78C2AD;
+	color: azure;
+	padding: 10px;
+	border-radius: 4px;
+}
+.ic i {
+	background: #78C2AD;
+	color: azure;
+	padding: 15px;
+	border-radius: 100%;
+}
+/* ***************** */
+
+.fad{
+	padding:7px 10px;
+	background: transparent;
+	border-radius: 5px;
+	transition: background 0.7s;
+	text-align: center;
+	margin-left: 9%;
+}
+.fad:hover {
+	padding:7px 10px;
+	background: #78C2AD;
+	color: azure;
+	border-radius: 5px;
+	transition: background 0.7s;
+}
+.btn {
+    font-size: 1.3rem;
+}
+
+.body{
+background-color: #cfe4db;
+}
+
+.text{
+	color: tomato;
+	font-size: 300%;
+}
+
+.display-4{
+	margin-top: 3%;
+	margin-right: 10%;
+}
+
+.lead{
+	margin-right: 10%;	
+}
+
+
+
+
+.logoicon {
+	margin-right: 7px;
+	display: inline-block; }
+
+.container{
+	align-content: center;
+}
+
+.color {
+background-color: aqua;
+}
+
+
+
+
+
+
+

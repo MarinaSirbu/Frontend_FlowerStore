@@ -1,0 +1,531 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="marina" content="flowers">
+
+	<title>Flower store</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/flower.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- jQuery -->
+	<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+	<!-- Bootstrap4 files-->
+	<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+	<!-- Font awesome 5 -->
+	<link href="fonts/fontawesome/css/fontawesome-all.min.css" type="text/css" rel="stylesheet">
+
+	<!-- plugin: fancybox  -->
+	<script src="plugins/fancybox/fancybox.min.js" type="text/javascript"></script>
+	<link href="plugins/fancybox/fancybox.min.css" type="text/css" rel="stylesheet">
+	
+	<!--adaug link-urile la slider-->
+	<!-- plugin: owl carousel  -->
+	<link href="plugins/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="plugins/owlcarousel/assets/owl.theme.default.css" rel="stylesheet">
+	<script src="plugins/owlcarousel/owl.carousel.min.js"></script>
+
+	<!-- plugin: slickslider -->
+	<link href="plugins/slickslider/slick.css" rel="stylesheet" type="text/css" />
+	<link href="plugins/slickslider/slick-theme.css" rel="stylesheet" type="text/css" />
+	<script src="plugins/slickslider/slick.min.js"></script>
+
+	<!-- custom style -->
+	<link href="css/ui.css" rel="stylesheet" type="text/css"/>
+	<link href="css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+	
+	<!--my styles-->
+	<link href="css/styles.css" rel="stylesheet" type="text/css"/>
+
+	<!-- custom javascript -->
+	<script src="js/script.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		/// some script
+
+		// jquery ready start
+		$(document).ready(function() {
+			// jQuery code
+
+		}); 
+		// jquery end
+	</script>
+</head>
+<body class="body"> 
+<header class="section-header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+		<div class="logoicon"> <img src="images/logoicon.png" width="90" height="50"> </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+		<li class="nav-item active">
+			<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+		</li>
+		<li class="nav-item "><a class="nav-link" href="categories/bouquets.html"> Bouquets </a></li>
+		<li class="nav-item"><a class="nav-link" href="categories/weddingOccasion.html"> Wedding Occasion </a></li>
+		<li class="nav-item"><a class="nav-link" href="categories/indoorFlowers.html"> Indoor Flowers </a></li>
+		<li class="nav-item"><a class="nav-link" href="categories/gardenFlowers.html"> Garden Flowers</a></li>
+		
+		<li class="nav-item"><a class="nav-link text-warning" href="pages/contacts.html"> Contact us ! </a></li>
+    </ul>
+  </div>
+
+<!--iconitele din dreapta-->
+<div class="row align-items-center">
+	<div class="col-sm-12 col-md-12 col-xl-4">
+		<div class="widgets-wrap d-flex flex-row no-gutters py-0">
+			<div class="col-auto">
+			<div class="widget-header dropdown">
+				<a href="#" data-toggle="dropdown" data-offset="20,10">
+					<div class="icontext"> 
+						<div class="fad">
+								<i class="fas fa-user fa-2x float-right" style="color:azure"></i>
+						</div>
+						<div class="text-dark" style="margin-left: 10px">
+							Login  
+						</div>
+					</div>
+				</a>
+				<div class="dropdown-menu">
+					<form class="px-4 py-3">
+						<div class="form-group">
+						  <label>Email address</label>
+						  <input type="email" class="form-control" placeholder="email@example.com">
+						</div>
+						<div class="form-group">
+						  <label>Password</label>
+						  <input type="password" class="form-control" placeholder="Password">
+						</div>
+						<button type="submit" class="btn btn-primary">Sign in</button>
+						</form>
+						<hr class="dropdown-divider">
+						<a class="dropdown-item" href="pages/registration.html">Don't  have account? Sign Up</a>
+						<a class="dropdown-item" href="#">Forgot password?</a>
+				</div> <!--  dropdown-menu .// -->
+			</div>  <!-- widget-header .// -->
+			</div> <!-- col.// -->
+			<div class="col-auto">
+				<a href="pages/wishlist.html" class="widget-header">
+					<div class="icontext ml-2">
+						<div class="fad">
+								<i class="fas fa-heart fa-2x float-right" style="color:azure"></i>
+						</div>
+						<div class="text-dark" style="margin-left: 10px">
+							Wishlist
+						</div>
+					</div>
+				</a>
+			</div> <!-- col.// -->
+			<div class="col-auto">
+				<a href="pages/basket.html" class="widget-header">
+					<div class="icontext ml-4">
+						<div class="fad">
+							<i class="fas fa-shopping-basket fa-2x float-right" style="color:azure"></i>
+						</div>
+						<div class="text-dark" style="margin-left: 10px">
+								Basket
+						</div>
+					</div>
+				</a>
+			</div> <!-- col.// -->
+		</div> <!-- widgets-wrap.// row.// -->
+	</div> <!-- col.// -->
+</div> <!-- row.// -->
+
+</nav>
+
+<section class="header-main bg-light">
+	<div class="container">
+		<div class="row ">
+			<div class="col-xl-3">
+				<div class="brand-wrap">
+					
+						<h2 class="logo-text text-secondary"><i>Always fresh flowers</i></h2>
+				</div> <!-- brand-wrap.// -->
+			</div>
+			<div class="col-xl-9">
+				<form class="form-inline my-2 my-lg-0"> <!-- my - margin top si bottom, -->
+				<div class="input-group input-group-lg w-100 p-1">
+					<input class="form-control form-control-lg" type="search" placeholder="Search" aria-label="Search">
+					<div class="input-group-append">
+						<button class="btn btn-primary" type="submit">
+							<i class="fas fa-search fa-lg"></i>
+						</button>
+					</div>
+				</div>
+				</form> <!-- search-wrap .end// -->
+			</div>
+		</div> <!-- row.// -->
+	</div> <!-- container.// -->
+</section> <!-- header-main .// -->
+</header> <!-- section-header.// -->
+
+<!-- ========================= SECTION INTRO ========================= -->
+<section class="section-intro pt-0">
+	<div class="container-fluid intro">		
+		<div class="row d-flex align-items-center" > 		
+		<div class="col-sm-12">
+			<header class="intro-wrap text-white" style="text-align: right">
+				<h2 class="display-4"> Don't know what to gift? </h2>
+				<p class="lead text"> <b>50% discount for fresh tulips!</b></p>
+				<a href="#" class="btn btn-secondary btn-lg">Order now!</a>
+			</header>  <!-- intro-wrap .// -->
+		</div> <!-- col.// -->
+		</div> <!-- row.// -->
+	</div> <!-- container .//  -->
+	</section>
+
+
+<!-- ============== owl slide items  ============= -->
+<div class="container col-sm-11 " >
+	<div class="row" >
+	<div class="owl-carousel owl-init slide-items" data-items="6" data-margin="20" data-dots="true" data-nav="true" >
+		<a href="products/pinkPeonies.html">
+		<div class="item-slide" >
+			<figure class="card card-product">
+				<span class="badge-new"> NEW </span>
+				<div class="img-wrap" > <img src="images/items/1.jpg" width="100%" height="100%"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Pink peonies</h6>
+				
+					<p class="price">50$</p>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div>
+		</a>
+		<a href="products/peoniesw.html">
+		<div class="item-slide">
+			<figure class="card card-product">
+					<span class="badge-new"> BEST SELLER </span>
+				<div class="img-wrap"> <img src="images/items/2.jpg" width="100%" height="100%"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Peonies</h6>
+					
+					<p class="price">60$</p>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div>
+		</a>
+		<a href="products/violetOrchid.html">
+		<div class="item-slide">
+			<figure class="card card-product">
+					<span class="badge-new"> SALE </span>
+				<div class="img-wrap"> <img src="images/items/3.jpg" width="100%" height="100%"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Violet orchid <small style="color:#ff4d4d">-20%</small></h6>
+					
+					<p class="price">40$ <small style="color:#ff4d4d"><del>50$</del></small></p>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div>
+		</a>
+		<a href="products/yellowRoseg.html">
+		<div class="item-slide">
+			<figure class="card card-product">
+					<span class="badge-new"> BEST SELLER </span>
+				<div class="img-wrap"> <img src="images/items/4.jpg" width="100%" height="100%"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Yellow rose</h6>
+				
+					<p class="price">80$</p>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div>
+		</a>
+		<a href="products/pinkRoses.html">
+		<div class="item-slide">
+			<figure class="card card-product">
+					<span class="badge-new"> SALE </span>
+				<div class="img-wrap"> <img src="images/items/5.png" width="100%" height="100%"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Pink roses <small style="color:#ff4d4d">-15%</small></h6>
+					
+					<p class="price">51$ <small style="color:#ff4d4d"><del>60$</del></small></p>
+
+					
+				</figcaption>
+			</figure> <!-- card // -->
+		</div>
+		</a>
+		<a href="products/whiteLilies.html">
+		<div class="item-slide">
+			<figure class="card card-product">
+					<span class="badge-new"> BEST SELLER </span>
+				<div class="img-wrap"> <img src="images/items/6.jpg" width="100%" height="100%"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">White lilies</h6>
+				
+					<p class="price">20$</p>
+				</figcaption>
+			</figure> <!-- card // -->
+	
+	
+		</div>
+	</a>
+	<a href="products/cactus.html">
+	<div class="item-slide">
+		<figure class="card card-product">
+				<span class="badge-new"> BEST SELLER </span>
+			<div class="img-wrap"> <img src="images/items/7.jpg" width="100%" height="100%"> </div>
+			<figcaption class="info-wrap text-center">
+				<h6 class="title text-truncate">Cactus</h6>
+				
+				<p class="price">10$</p>
+			</figcaption>
+		</figure> <!-- card // -->
+	
+	
+	</div>
+	</a>
+	<a href="products/whiteDaisyg.html">
+	<div class="item-slide">
+		<figure class="card card-product">
+				<span class="badge-new"> SALE </span>
+			<div class="img-wrap"> <img src="images/items/8.jpg" width="100%" height="100%"> </div>
+			<figcaption class="info-wrap text-center">
+				<h6 class="title text-truncate">White daisy <small style="color:#ff4d4d">-15%</small></h6>
+				
+				<p class="price">34$ <small style="color:#ff4d4d"><del>40$</del></small></p>
+			</figcaption>
+		</figure> <!-- card // -->
+	
+	
+	
+	</div>
+	</a>
+		<a href="products/redRoses.html">
+				<div class="item-slide">
+					<figure class="card card-product">
+						<span class="badge-new"> BEST SELLER </span>
+						<div class="img-wrap"> <img src="images/items/9.jpg" width="100%" height="100%"> </div>
+						<figcaption class="info-wrap text-center">
+							<h6 class="title text-truncate">Red roses</h6>
+							
+							<p class="price">20$</p>
+						</figcaption>
+					</figure> <!-- card // -->
+	
+	</div>
+	</a>
+	<a href="products/pinkRosesw1.html">
+	<div class="item-slide">
+		<figure class="card card-product">
+				<span class="badge-new"> NEW </span>
+			<div class="img-wrap"> <img src="images/items/weddingOccasion/8.jpg" width="100%" height="100%"> </div>
+			<figcaption class="info-wrap text-center">
+				<h6 class="title text-truncate">Pink roses</h6>
+				
+				<p class="price">90$</p>
+			</figcaption>
+		</figure> <!-- card // -->
+	
+	</div>
+</a>
+<a href="products/yucca.html">
+<div class="item-slide">
+	<figure class="card card-product">
+			<span class="badge-new"> BEST SELLER </span>
+		<div class="img-wrap"> <img src="images/items/11.jpg" width="100%" height="100%"> </div>
+		<figcaption class="info-wrap text-center">
+			<h6 class="title text-truncate">Yucca</h6>
+			
+			<p class="price">20$</p>
+		</figcaption>
+	</figure> <!-- card // -->
+
+
+</div>
+</a>
+<a href="products/violetDaisyg.html">
+<div class="item-slide">
+	<figure class="card card-product">
+			<span class="badge-new"> SALE </span>
+		<div class="img-wrap"> <img src="images/items/12.jpg" width="100%" height="100%"> </div>
+		<figcaption class="info-wrap text-center">
+			<h6 class="title text-truncate">Violet daisy <small style="color:#ff4d4d">-20%</small></h6>
+			
+			<p class="price">36$ <small style="color:#ff4d4d"><del>45$</del></small></p>
+		</figcaption>
+	</figure> <!-- card // -->
+	
+		</div>
+		</a>
+	</div>
+	<!-- ============== owl slide items .end // ============= -->
+	</div>
+	</div>
+	
+	<div class="title-text text-center">
+		<br>
+		<span class="h2 text-secondary"> <b >Deals of the Day </b></span>
+	</div>
+	<!-- ============== owl slide items 2  ============= -->
+	<div class="container col-sm-11">
+	<div class="row" style="margin-bottom: 25px">
+		<div class="owl-carousel owl-init slide-items" id="slide_custom_nav" data-custom-nav="custom-nav-first" data-items="6" data-margin="20" data-dots="true" data-nav="false">
+			<a href="products/liliesOfTheValley.html">
+		<div class="item-slide" >
+			<figure class="card card-product" >
+				<span class="badge-new"> HOT SALE </span>
+				<div class="img-wrap" style="height: 260px"> <img src="images/items/hot1.jpg" width="100%" height="100%"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Lilies of the valley</h6>
+					<p class="price">3$</p>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div>
+		</a>
+		<a href="products/pinkTulips.html">
+		<div class="item-slide">
+			<figure class="card card-product">
+					<span class="badge-new"> HOT SALE </span>
+				<div class="img-wrap" style="height: 260px"> <img src="images/items/hot2.jpg" width="100%" height="100%"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Pink tulips</h6>
+					<p class="price">20$</p>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div>
+		</a>
+		<a href="products/violetTulips.html">
+		<div class="item-slide">
+			<figure class="card card-product">
+					<span class="badge-new"> HOT SALE </span>
+				<div class="img-wrap" style="height: 260px"> <img src="images/items/hot3.jpg" width="100%" height="100%"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Violet tulips</h6>
+					<p class="price">10$</p>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div>
+		</a>
+		<a href="products/orangeTulips.html">
+		<div class="item-slide">
+			<figure class="card card-product">
+					<span class="badge-new"> HOT SALE </span>
+				<div class="img-wrap" style="height: 260px"> <img src="images/items/hot4.jpg" width="100%" height="100%"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Orange tulips</h6>
+					<p class="price">10$</p>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div>
+		</a>
+		<a href="products/coloredTulips.html">
+		<div class="item-slide">
+			<figure class="card card-product">
+					<span class="badge-new"> HOT SALE </span>
+				<div class="img-wrap" style="height: 260px"> <img src="images/items/hot5.jpg" width="100%" height="100%"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Colored tulips</h6>
+					<p class="price">10$</p>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div>
+	</a>
+			<a href="products/chamomiles.html">
+				<div class="item-slide">
+					<figure class="card card-product">
+							<span class="badge-new"> BEST SELLER </span>
+						<div class="img-wrap" style="height: 260px"> <img src="images/items/hot6.jpeg" width="100%" height="100%"> </div>
+						<figcaption class="info-wrap text-center">
+							<h6 class="title text-truncate">Camomiles</h6>
+							<p class="price">3$</p>
+						</figcaption>
+					</figure> <!-- card // -->
+	
+		</div>
+		</a>
+	</div>
+	<!-- ============== owl slide items 2 .end // ============= -->
+	</div>
+	</div>
+	
+<!-- ========================= FOOTER ========================= -->
+<footer class="section-footer bg-primary">
+	<div class="container" >
+		<section class="footer-top padding-top ">
+			<div class="row" style="width: 100%; margin-left: 3%" >
+
+					<aside class="col-sm-3  col-md-3 white" >
+							<h5 class="title"><b>My Account</b></h5>
+							<ul class="list-unstyled" >
+							
+								<li> <a href="#"> Account Setting </a></li>
+								<li> <a href="#"> My Orders </a></li>
+								<li> <a href="#"> My Wishlist </a></li>
+							</ul>
+						</aside>
+
+
+				<aside class="col-sm-3 col-md-3 white">
+					<h5 class="title"><b>Customer Services</b></h5>
+					<ul class="list-unstyled">
+						<li> <a href="#">Help center</a></li>
+						<li> <a href="#">Terms and Policy</a></li>
+						<li> <a href="#">Open dispute</a></li>
+					</ul>
+				</aside>
+				
+				<aside class="col-sm-3  col-md-3 white">
+					<h5 class="title"><b>About</b></h5>
+					<ul class="list-unstyled">
+						<li> <a href="#"> Our history </a></li>
+						<li> <a href="#"> How to buy </a></li>
+						<li> <a href="#"> Delivery and payment </a></li>
+						
+					</ul>
+				</aside>
+
+				<aside class="col-sm-3  col-md-3 white">
+			
+						<h5 class="title"><b>Contacts</b></h5>
+
+					
+										<ul class="list-unstyled">
+												<li> <a ><i class="fas fa-phone" style="color:lightslategray"></i> +373 78 348 067</a> </li>
+												<li> <a ><i class="fas fa-fax" style="color:lightslategray"></i> +373 22 481 828</a> </li>
+												<li> <a ><i class="fas fa-map-marker-alt" style="color:lightpink"></i> Chișinău, str. I. Vieru, 11</a> </li>		 				
+				</aside>
+
+			</div> <!-- row.// -->
+
+		
+			<br> 
+		
+
+		<section class="footer-bottom row border-top-white">
+			
+			
+			
+					<div class="btn-group" style="width: 100%" >
+							<a class="btn btn-facebook" title="Facebook" target="_blank" href="https://www.facebook.com/syrbu.m"><i class="fab fa-facebook fa-2x"></i></a>
+							<a class="btn btn-instagram" title="Instagram" target="_blank" href="https://www.instagram.com/syrbumarina/?hl=ru"><i class="fab fa-instagram fa-2x" ></i></a>
+						   
+							<a class="btn btn-twitter" title="Twitter" target="_blank" href="https://twitter.com/MarinaSyrbu"><i class="fab fa-twitter  fa-2x"></i></a>
+
+
+							<a class="btn btn-vkontakte" title="Vkontakte" target="_blank" href="https://vk.com/marina.sirbu"><i class="fab fa-vk  fa-2x"></i></a>
+
+							
+							<a class="btn btn-linkedin" title="Linkedin" target="_blank" href="https://www.linkedin.com/in/marina-sirbu-328b9b178/"><i class="fab fa-linkedin-in  fa-2x"></i></a>
+
+							<a class="btn btn-googleplus" title="Googleplus" target="_blank" href="https://aboutme.google.com/u/0/?referer=gplus"><i class="fab fa-google-plus-g  fa-2x"></i></a>
+
+
+							<a class="btn btn-youtube" title="Youtube" target="_blank" href="https://www.youtube.com/channel/UCzPYwKQjb5OAnnLTFgyhVQQ"><i class="fab fa-youtube  fa-2x"></i></a>
+			</div>
+		</section>
+		</section> <!-- //footer-top -->
+	</div><!-- //container -->
+</footer>
+<!-- ========================= FOOTER END // ========================= -->
+
+</body>
+</html>
